@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/mshop?useSSL=false&amp;characterEncoding=utf-8</property>
+		<property name="user">root</property>
+		<!-- 自己的密码!!!!!! -->
+		<property name="password">2801382156</property>
+		<!-- 初始化连接的个数 -->
+		<property name="initialPoolSize">10</property>
+		<!--连接池中保留的最大连接数。Default: 15 -->
+		<property name="maxPoolSize">100</property>
+	</default-config>
+</c3p0-config>
