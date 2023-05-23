@@ -67,4 +67,16 @@ public class Users {
 	public void setUser_regtime(String user_regtime) {
 		this.user_regtime = user_regtime;
 	}
+
+	@Override
+	public String toString() {
+		return "Users{" +
+				"user_id=" + user_id +
+				", username='" + username + '\'' +
+				", password='" + password + '\'' +
+				", nickname='" + nickname + '\'' +
+				", user_img='" + user_img + '\'' +
+				", user_regtime='" + user_regtime + '\'' +
+				'}';
+	}
 }
